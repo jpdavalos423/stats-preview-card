@@ -28,28 +28,46 @@ body {
 .card-wrapper {
   max-width: 40rem;
   background-color: hsl(244, 38%, 16%);
+  border-radius: 1rem;
+  margin: 0 2.5rem;
   text-align: center;
 }
 .card-wrapper img {
   width: 100%;
+  border-radius: 1rem 1rem 0 0;
+  height: 20rem;
+}
+
+.content {
+  padding: 2.5rem;
 }
 
 .content-header h1 {
   font-size: 2rem;
   font-weight: 700;
+  line-height: 1.25;
+  margin: 1rem 0;
 }
 .content-header h1 span {
   color: hsl(277, 64%, 61%);
 }
 .content-header p {
+  line-height: 2;
   color: hsla(0, 0%, 100%, 0.75);
 }
 
+.stat-item {
+  line-height: 1.5;
+  margin-top: 2rem;
+}
 .stat-item span {
   font-size: 2rem;
   font-weight: 700;
 }
 .stat-item p {
+  font-family: "Lexend Deca";
+  font-weight: 400;
   color: hsla(0, 0%, 100%, 0.6);
   text-transform: uppercase;
+  letter-spacing: 1.5px;
 }/*# sourceMappingURL=style.css.map */
